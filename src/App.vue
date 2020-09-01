@@ -1,19 +1,22 @@
+<script>
+/*
+ * @Author: M.M
+ * @Date:   2020-08-31 14:27:24
+ * @Last Modified by:   M.M
+ * @Last Modified time: 2020-08-31 16:06:44
+ */
+</script>
 <template>
   <div id="app">
+  <h1>fjdafkljdkl</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
+    
     </div>
     <router-view/>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
+<style lang="scss">
+@import "styles/base.scss"
 </style>
