@@ -1,11 +1,13 @@
-<script>
+
+
 /*
  * @Author: M.M
  * @Date:   2020-08-31 14:27:24
  * @Last Modified by:   M.M
  * @Last Modified time: 2020-08-31 16:06:44
  */
-</script>
+
+
 <template>
   <div id="app">
   <h1>fjdafkljdkl</h1>
@@ -18,5 +20,5 @@
 </template>
 
 <style lang="scss">
-@import "styles/base.scss"
+@import "styles/base.scss";
 </style>

@@ -1,11 +1,11 @@
-<script>
+
 /*
  * @Author: M.M
  * @Date:   2020-08-31 14:27:46
  * @Last Modified by:   M.M
  * @Last Modified time: 2020-08-31 14:27:46
  */
-</script>
+
 <template>
   <div class="home">
     
@@ -19,6 +19,7 @@
 export default {
   name: 'Home',
   components: {
+
     
   }
 }
