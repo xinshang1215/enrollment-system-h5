@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /*
  * @Author: M.M
  * @Date:   2020-08-31 14:27:17
@@ -7,7 +9,6 @@
  ! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
  */
 
-@charset "utf-8";
 
 $lineHeight:1.5;
 
@@ -56,7 +57,7 @@ a {
 
 abbr[title] {
 	border-bottom: none; //在Chrome57版本之前去除下边框
-	text-decoration: underline; //调整下滑线，统一Chrom/Firefox/IE/Opera/Safari下的表现
+	text-decoration: underline; //调整下滑线，统一Chrome/Firefox/IE/Opera/Safari下的表现
 	text-decoration: underline dotted;
 }
 
