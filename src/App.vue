@@ -10,9 +10,7 @@ import Bar from "@/components/Bar";
 
 export default {
   name:"app",
-  comments:[
-    Bar
-  ],
+  components: {Bar},
   data(){
     return{
 
@@ -21,5 +19,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@import "styles/base.scss";
+@import "styles/base";
+@import "styles/public";
 </style>

@@ -1,26 +1,32 @@
-
-/*
- * @Author: M.M
- * @Date:   2020-08-31 14:27:46
- * @Last Modified by:   M.M
- * @Last Modified time: 2020-08-31 14:27:46
- */
-
 <template>
   <div class="home">
-    
-   
+    <Article :imgs="imgs"></Article>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
+import Article from "@/components/Article";
 export default {
   name: 'Home',
-  components: {
+  components: { Article },
+  data(){
+    return{
+      imgs:[
+        {
+          id:1,
+          url:"./img/1.png"
+        },
+        {
+          id:2,
+          url:"./img/2.png"
+        }
+      ]
+    }
+  },
+  created() {
+  },
+  methods:{
 
-    
   }
 }
 </script>
